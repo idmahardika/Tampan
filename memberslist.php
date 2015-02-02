@@ -1,4 +1,7 @@
 <?php
+/* Paste (and replace) This File to 
+wp-content/plugins/paid-memberships-pro/adminpages/
+*/
 	//only admins can get this
 	if(!function_exists("current_user_can") || (!current_user_can("manage_options") && !current_user_can("pmpro_memberslist")))
 	{
